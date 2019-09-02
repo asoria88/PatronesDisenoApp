@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PatronesDisenoApp
+namespace OpenClosedPrinciple.App.Enumerador
 {
-    class Program
+    public enum eRol
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        Doctor = 0,
+        Enfermera = 1
     }
 }
